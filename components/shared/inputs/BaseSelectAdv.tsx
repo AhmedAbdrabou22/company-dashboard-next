@@ -46,7 +46,7 @@ export const BaseSelectAdv = ({
             setTimeout(() => setOpen(false), 150);
           }}
           className={`w-full px-4 py-2.5 text-sm bg-white rounded-lg border outline-none text-left flex items-center justify-between transition-all duration-150
-            focus:ring-2 focus:ring-[# 1A2A4B]/20 focus:border-[# 1A2A4B]
+            focus:ring-2 focus:ring-[#e28576]/20 focus:border-[#e28576]
             ${hasError ? "border-red-400" : "border-gray-200 hover:border-gray-300"}
             ${selected ? "text-gray-800" : "text-gray-400"}`}
         >
@@ -74,7 +74,7 @@ export const BaseSelectAdv = ({
                 }}
                 className={`w-full text-left px-4 py-3 text-sm transition-colors
                   hover:bg-gray-50
-                  ${field.value === opt.value ? "text-[# 1A2A4B] font-semibold bg-blue-50/50" : "text-gray-700"}`}
+                  ${field.value === opt.value ? "text-[#e28576] font-semibold bg-blue-50/50" : "text-gray-700"}`}
               >
                 {opt.label}
               </button>

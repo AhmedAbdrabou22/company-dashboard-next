@@ -107,7 +107,7 @@ export default function SignupForm({ role }: SignupFormProps) {
                 Already have an account?{" "}
                 <Link
                     href={`/${role}/login`}
-                    style={{ color: "# 1A2A4B", fontWeight: 700, textDecoration: "none" }}
+                    style={{ color: "#e28576", fontWeight: 700, textDecoration: "none" }}
                 >
                     Login
                 </Link>

@@ -41,14 +41,14 @@ export const RadioGroup = ({
                             onClick={() => helpers.setValue(opt.value)}
                             className={`flex items-center gap-2.5 px-4 py-2.5 rounded-lg border text-sm font-medium transition-all duration-150 flex-1 min-w-[160px]
                 ${isSelected
-                                    ? "border-[# 1A2A4B] bg-white text-[# 1A2A4B] ring-2 ring-[# 1A2A4B]/10"
+                                    ? "border-[#e28576] bg-white text-[#e28576] ring-2 ring-[#e28576]/10"
                                     : "border-gray-200 bg-white text-gray-600 hover:border-gray-300"
                                 }`}
                         >
                             <span className={`w-4 h-4 rounded-full border-2 flex items-center justify-center flex-shrink-0
-                ${isSelected ? "border-[# 1A2A4B]" : "border-gray-300"}`}
+                ${isSelected ? "border-[#e28576]" : "border-gray-300"}`}
                             >
-                                {isSelected && <span className="w-2 h-2 rounded-full bg-[# 1A2A4B]" />}
+                                {isSelected && <span className="w-2 h-2 rounded-full bg-[#e28576]" />}
                             </span>
                             {opt.label}
                         </button>

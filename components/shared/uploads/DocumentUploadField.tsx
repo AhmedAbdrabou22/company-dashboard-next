@@ -58,7 +58,7 @@ export const DocumentUploadField = ({
                         type="date"
                         onChange={(e) => expiryHelpers.setValue(e.target.value)}
                         className={`w-full px-4 py-2.5 text-sm text-gray-800 bg-white rounded-lg border outline-none transition-all duration-150
-                            focus:ring-2 focus:ring-[# 1A2A4B]/20 focus:border-[# 1A2A4B]
+                            focus:ring-2 focus:ring-[#e28576]/20 focus:border-[#e28576]
                             ${hasError
                                 ? "border-red-400"
                                 : "border-gray-200 hover:border-gray-300"

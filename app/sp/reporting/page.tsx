@@ -1,3 +1,8 @@
+import BoReporting from "@/components/bo/report/Main";
+
 export default function Page() {
-  return <div className="p-4 text-xl">Reporting</div>;
+  return <div className="">
+
+    <BoReporting/>
+  </div>;
 }

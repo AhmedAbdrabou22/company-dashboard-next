@@ -2,7 +2,7 @@
 
 /* ── Custom theme tokens (Tailwind v4 syntax) ── */
 @theme {
-  --color-primary: #70423f;
+  --color-primary: #e28576;
   --color-primary-light: #e28576;
   --color-danger: #e53935;
   --font-inter: "Inter", sans-serif;
@@ -33,7 +33,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  color: #111827;
+  color: #e28576 !important;
   margin-bottom: 12px;
 }
 
@@ -45,14 +45,14 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 150%;
-  color: #6b7280;
+  color: #70423F;
   margin-bottom: 40px;
 }
 
 .forgot-link {
   font-weight: 500;
   font-size: 15px;
-  color: #374151;
+  color: #e28576;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ body {
 .primary-btn {
   width: 100%;
   padding: 18px;
-  background: #70423f;
+  background: #e28576;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -130,7 +130,7 @@ body {
 }
 
 .otp-input:focus {
-  border-color: #70423f;
+  border-color: #e28576;
   box-shadow: 0 0 0 2px rgba(112, 66, 63, 0.15);
 }
 

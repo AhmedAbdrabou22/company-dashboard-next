@@ -54,7 +54,7 @@ function StepIndicator({ status }: { status: RequestStatus }) {
                         <div className="flex items-start gap-4">
                             <div className="flex flex-col items-center">
                                 <div
-                                    className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-300 ${isDone ? "bg-[# 1A2A4B]" : "bg-white border-2 border-[#D0D5DD]"
+                                    className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-300 ${isDone ? "bg-[#e28576]" : "bg-white border-2 border-[#D0D5DD]"
                                         }`}
                                 >
                                     {isDone && (
@@ -71,7 +71,7 @@ function StepIndicator({ status }: { status: RequestStatus }) {
                                 </div>
                                 {!isLast && (
                                     <div
-                                        className={`w-0.5 h-10 mt-1 transition-all duration-300 ${i < currentIndex ? "bg-[# 1A2A4B]" : "bg-[#D0D5DD]"
+                                        className={`w-0.5 h-10 mt-1 transition-all duration-300 ${i < currentIndex ? "bg-[#e28576]" : "bg-[#D0D5DD]"
                                             }`}
                                     />
                                 )}
@@ -79,7 +79,7 @@ function StepIndicator({ status }: { status: RequestStatus }) {
 
                             <div className="pt-0.5">
                                 <p
-                                    className={`font-semibold text-base leading-tight ${isActive || isDone ? "text-[# 1A2A4B]" : "text-[#98A2B3]"
+                                    className={`font-semibold text-base leading-tight ${isActive || isDone ? "text-[#e28576]" : "text-[#98A2B3]"
                                         }`}
                                 >
                                     {step.label}
@@ -102,7 +102,7 @@ function DetailField({ label, value }: { label: string; value: string }) {
     return (
         <div className="flex flex-col gap-0.5">
             <p className="text-xs text-[#98A2B3] font-medium">{label}</p>
-            <p className="text-sm font-semibold text-[# 1A2A4B]">{value}</p>
+            <p className="text-sm font-semibold text-[#000]">{value}</p>
         </div>
     );
 }
@@ -138,7 +138,7 @@ function RejectModalContent({
                 value={reason}
                 onChange={(e) => setReason(e.target.value)}
                 placeholder="Type your reason here"
-                className="w-full px-4 py-3 rounded-xl border border-[#E4E7EC] text-sm text-[# 1A2A4B] placeholder:text-[#C0C9D8] outline-none focus:border-[# 1A2A4B] focus:ring-2 focus:ring-[# 1A2A4B]/10 transition-all duration-200"
+                className="w-full px-4 py-3 rounded-xl border border-[#E4E7EC] text-sm text-[#e28576] placeholder:text-[#C0C9D8] outline-none focus:border-[#e28576] focus:ring-2 focus:ring-[#e28576]/10 transition-all duration-200"
             />
             <PrimaryButton
                 text="Submit"
@@ -187,7 +187,7 @@ export default function TrackRequest({
                 {/* ── Header ── */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-5 border-b border-[#E4E7EC]">
                     <div>
-                        <h2 className="text-xl font-bold text-[# 1A2A4B]">Order ID: {requestId}</h2>
+                        <h2 className="text-xl font-bold text-[#e28576]">Order ID: {requestId}</h2>
                         <p className="text-sm text-[#98A2B3] mt-0.5">Order date: {orderDate}</p>
                     </div>
                     <div className="flex items-center gap-3">
@@ -199,7 +199,7 @@ export default function TrackRequest({
                         />
                         <button
                             onClick={() => setRejectModalOpen(true)}
-                            className="px-8 py-2.5 rounded-xl text-sm font-medium text-white bg-[#FF0000]  active:scale-[0.98] transition-all duration-200"
+                            className="px-8 py-2.5 rounded-xl text-sm font-medium text-white bg-[#E85E4F]  active:scale-[0.98] transition-all duration-200"
                         >
                             Reject
                         </button>
@@ -213,7 +213,7 @@ export default function TrackRequest({
                     </div>
 
                     <div className="flex-1 px-6 py-6">
-                        <h3 className="text-xl font-bold text-[# 1A2A4B] mb-6">Request Details</h3>
+                        <h3 className="text-xl font-bold text-[#000] mb-6">Request Details</h3>
 
                         <div className="flex flex-col gap-5">
                             <DetailField label="Full Name" value={details.fullName} />

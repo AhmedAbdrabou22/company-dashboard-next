@@ -132,8 +132,8 @@ const Checkbox = ({ checked, indeterminate = false, onChange }: Checkbox_TP) => 
         aria-checked={indeterminate ? "mixed" : checked}
         onClick={onChange}
         className={`w-[18px] h-[18px] rounded flex items-center justify-center border transition-all duration-150 ${checked || indeterminate
-            ? "bg-[# 1A2A4B] border-[# 1A2A4B]"
-            : "bg-white border-gray-300 hover:border-[# 1A2A4B]"
+            ? "bg-[#e28576] border-[#e28576]"
+            : "bg-white border-gray-300 hover:border-[#e28576]"
             }`}
     >
         {indeterminate && !checked && (

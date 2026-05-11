@@ -38,7 +38,7 @@ function BaseTextarea({
                     rows={3}
                     className={`w-full px-4 py-2.5 text-sm text-gray-800 bg-white rounded-lg border outline-none transition-all duration-150 resize-none
                         placeholder:text-gray-400
-                        focus:ring-2 focus:ring-[# 1A2A4B]/20 focus:border-[# 1A2A4B]
+                        focus:ring-2 focus:ring-[#e28576]/20 focus:border-[#e28576]
                         ${hasError
                             ? "border-red-400 focus:ring-red-100 focus:border-red-400"
                             : "border-gray-200 hover:border-gray-300"

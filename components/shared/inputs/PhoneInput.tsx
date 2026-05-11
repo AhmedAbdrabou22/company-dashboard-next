@@ -50,13 +50,13 @@ export const PhoneInput = ({
                     onFocus={(e) => {
                         if (!hasError) {
                             const wrapper = e.target.closest("div")!;
-                            wrapper.classList.add("ring-2", "ring-[# 1A2A4B]/20", "!border-[# 1A2A4B]");
+                            wrapper.classList.add("ring-2", "ring-[#e28576]/20", "!border-[#e28576]");
                         }
                     }}
                     onBlur={(e) => {
                         field.onBlur(e);
                         const wrapper = e.target.closest("div")!;
-                        wrapper.classList.remove("ring-2", "ring-[# 1A2A4B]/20", "!border-[# 1A2A4B]");
+                        wrapper.classList.remove("ring-2", "ring-[#e28576]/20", "!border-[#e28576]");
                     }}
                 />
             </div>

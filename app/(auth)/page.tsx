@@ -70,7 +70,7 @@ export default function RoleSelectionPage() {
                                 gap: 14,
                                 padding: "16px 18px",
                                 borderRadius: 12,
-                                border: isSelected ? "2px solid #70423f" : "1.5px solid #E5E7EB",
+                                border: isSelected ? "2px solid #e28576" : "1.5px solid #E5E7EB",
                                 background: "#fff",
                                 cursor: "pointer",
                                 textAlign: "left",
@@ -89,7 +89,7 @@ export default function RoleSelectionPage() {
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
-                                    color: "#70423f",
+                                    color: "#e28576",
                                     flexShrink: 0,
                                 }}
                             >
@@ -120,7 +120,7 @@ export default function RoleSelectionPage() {
                                     width: 20,
                                     height: 20,
                                     borderRadius: "50%",
-                                    border: isSelected ? "6px solid #70423f" : "1.5px solid #D1D5DB",
+                                    border: isSelected ? "6px solid #e28576" : "1.5px solid #D1D5DB",
                                     background: "#fff",
                                     flexShrink: 0,
                                     transition: "border 0.15s",
@@ -154,7 +154,7 @@ export default function RoleSelectionPage() {
                 Already have an account?{" "}
                 <a
                     href="/admin/login"
-                    style={{ color: "#70423f", fontWeight: 700, textDecoration: "none" }}
+                    style={{ color: "#e28576", fontWeight: 700, textDecoration: "none" }}
                 >
                     Login
                 </a>

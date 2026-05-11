@@ -20,7 +20,7 @@ export const PermissionToggle = ({
             role="switch"
             aria-checked={value}
             onClick={() => onChange(!value)}
-            className={`relative mt-0.5 w-10 h-[22px] rounded-full shrink-0 transition-colors duration-200 ${value ? "bg-[#70423f]" : "bg-gray-300"
+            className={`relative mt-0.5 w-10 h-[22px] rounded-full shrink-0 transition-colors duration-200 ${value ? "bg-[#e28576]" : "bg-gray-300"
                 }`}
         >
             <span

@@ -59,7 +59,7 @@ export const CountryCard = ({
                 <Button variant="primary" onClick={handleEdit} className="flex-1">
                     Edit
                 </Button>
-                <Button variant="danger" onClick={handleDelete} className="flex-1">
+                <Button variant="hant" onClick={handleDelete} className="flex-1">
                     Delete
                 </Button>
             </div>

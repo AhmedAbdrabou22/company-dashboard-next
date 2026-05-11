@@ -6,7 +6,7 @@ interface ButtonProps {
     type?: "button" | "submit" | "reset";
     disabled?: boolean;
     className?: string;
-    variant?: "primary" | "danger" | "secondary";
+    variant?: "primary" | "danger" | "secondary" | "hant";
 }
 
 export const Button = ({
@@ -18,8 +18,9 @@ export const Button = ({
     variant = "primary",
 }: ButtonProps) => {
     const variants = {
-        primary: "bg-[#70423f] text-white hover:opacity-90",
+        primary: "bg-[#e28576] text-white hover:opacity-90",
         danger: "bg-[#FF0000] text-white hover:bg-red-700",
+        hant: "bg-[#E85E4F] text-white",
         secondary:
             "bg-white border border-[#E5E7EB] text-[#111827] hover:bg-gray-50",
     };

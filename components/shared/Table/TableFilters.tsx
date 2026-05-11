@@ -115,7 +115,7 @@ export const TableFilters = ({
                                 key={opt.value}
                                 onClick={() => handleSort(opt)}
                                 className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-gray-50 ${selectedSort?.value === opt.value
-                                    ? "text-[# 1A2A4B] font-medium"
+                                    ? "text-[#e28576] font-medium"
                                     : "text-gray-600"
                                     }`}
                             >

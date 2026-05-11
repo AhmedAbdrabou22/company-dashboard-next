@@ -94,7 +94,7 @@ export default function VerifyForm({ role }: VerifyFormProps) {
                                             borderColor: hasError
                                                 ? "#EF4444"
                                                 : digit
-                                                    ? "# 1A2A4B"
+                                                    ? "#e28576"
                                                     : "#D1D5DB",
                                             boxShadow: digit
                                                 ? "0 0 0 3px rgba(26,42,75,0.08)"
@@ -114,7 +114,7 @@ export default function VerifyForm({ role }: VerifyFormProps) {
                                             }
                                         }}
                                         onFocus={(e) => {
-                                            e.target.style.borderColor = "# 1A2A4B";
+                                            e.target.style.borderColor = "#e28576";
                                             e.target.style.boxShadow = "0 0 0 3px rgba(26,42,75,0.08)";
                                         }}
                                         onBlur={(e) => {
@@ -158,7 +158,7 @@ export default function VerifyForm({ role }: VerifyFormProps) {
                                         background: "none",
                                         border: "none",
                                         cursor: "pointer",
-                                        color: "# 1A2A4B",
+                                        color: "#e28576",
                                         fontWeight: 700,
                                         fontSize: 14,
                                         padding: 0,
@@ -178,7 +178,7 @@ export default function VerifyForm({ role }: VerifyFormProps) {
                 Already have an account?{" "}
                 <Link
                     href={`/${role}/login`}
-                    style={{ color: "# 1A2A4B", fontWeight: 700, textDecoration: "none" }}
+                    style={{ color: "#e28576", fontWeight: 700, textDecoration: "none" }}
                 >
                     Login
                 </Link>

@@ -36,7 +36,7 @@ export const BaseSelect = ({
                     <select
                         {...field}
                         className={`w-full px-4 py-2.5 text-sm bg-white rounded-lg border outline-none appearance-none transition-all duration-150 cursor-pointer
-                            focus:ring-2 focus:ring-[# 1A2A4B]/20 focus:border-[# 1A2A4B]
+                            focus:ring-2 focus:ring-[#e28576]/20 focus:border-[#e28576]
                             ${field.value ? "text-gray-800" : "text-gray-400"}
                             ${hasError
                                 ? "border-red-400 focus:ring-red-100 focus:border-red-400"

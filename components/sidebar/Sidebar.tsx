@@ -22,14 +22,14 @@ import { HiChevronRight } from "react-icons/hi2";
 import { HiXMark } from "react-icons/hi2";
 
 // ─── Design tokens ───────────────────────────────────────────────────────────
-const ACTIVE_BG = "#70423f";
+const ACTIVE_BG = "#e28576";
 const ACTIVE_TEXT = "#FFFFFF";
-const IDLE_TEXT = "#70423f";
+const IDLE_TEXT = "#e28576";
 const HOVER_BG = "#F1F5F9";
-const HOVER_TEXT = "#70423f";
+const HOVER_TEXT = "#e28576";
 const SIDEBAR_BG = "#FFFFFF";
-const NESTED_IDLE_TEXT = "#FF0000";
-const NESTED_ACTIVE_TEXT = "#70423f";
+const NESTED_IDLE_TEXT = "#70423F";
+const NESTED_ACTIVE_TEXT = "#e28576";
 
 const navItemFont: React.CSSProperties = {
   fontFamily: "'Work Sans', sans-serif",
@@ -412,7 +412,7 @@ export const Sidebar = ({
             cursor: "pointer",
             padding: "6px",
             borderRadius: "8px",
-            color: "#94a3b8",
+            color: "#70423F",
             display: "flex",
             alignItems: "center",
           }}

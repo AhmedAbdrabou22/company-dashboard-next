@@ -88,7 +88,7 @@ const MiniWave = () => (
         <Line
           type="monotone"
           dataKey="v"
-          stroke="# 1A2A4B"
+          stroke="#e28576"
           strokeWidth={1.5}
           dot={false}
         />
@@ -234,7 +234,7 @@ const ActivityChart = () => {
             cursor={{ fill: "rgba(0,0,0,0.03)" }}
           />
           <Bar dataKey="v2" fill="#D1D5DB" radius={[4, 4, 0, 0]} />
-          <Bar dataKey="v1" fill="# 1A2A4B" radius={[4, 4, 0, 0]} />
+          <Bar dataKey="v1" fill="#e28576" radius={[4, 4, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>
@@ -280,7 +280,7 @@ const TopServicesCard = () => (
                 width: `${s.pct * 3}%`, // scale to fit visual width
                 height: "100%",
                 borderRadius: 999,
-                background: "# 1A2A4B",
+                background: "#e28576",
                 transition: "width 0.6s ease",
               }}
             />

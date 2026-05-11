@@ -21,7 +21,7 @@ export const BaseDateInput = ({ name, label }: Props) => {
                 selected={field.value ? new Date(field.value) : null}
                 onChange={(date: Date | null) => setFieldValue(name, date)}
                 dateFormat="yyyy-MM-dd"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[# 1A2A4B]"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#e28576]"
                 placeholderText="Select date"
             />
         </div>

@@ -25,7 +25,7 @@ export default function RequestSuccess({
                 >
                     <path
                         d="M10 55 L30 78 L65 30"
-                        stroke="# 1A2A4B"
+                        stroke="#e28576"
                         strokeWidth="10"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -34,7 +34,7 @@ export default function RequestSuccess({
                     />
                     <path
                         d="M38 55 L58 78 L93 30"
-                        stroke="# 1A2A4B"
+                        stroke="#e28576"
                         strokeWidth="10"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -50,7 +50,7 @@ export default function RequestSuccess({
             <p className="text-base text-gray-500 mb-1">
                 Your Request has been successfully Submitted
             </p>
-            <p className="text-2xl font-bold text-[# 1A2A4B] mb-8">
+            <p className="text-2xl font-bold text-[#e28576] mb-8">
                 Request ID: {requestId}
             </p>
 

@@ -1,3 +1,5 @@
+import SettingsPage from "@/components/superadmin/settings/Main";
+
 export default function Page() {
-  return <div className="p-4 text-xl">Settings</div>;
+  return <SettingsPage/>
 }

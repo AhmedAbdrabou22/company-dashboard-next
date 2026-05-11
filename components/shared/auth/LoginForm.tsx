@@ -78,7 +78,7 @@ export default function LoginForm({ role }: LoginFormProps) {
                 You don't have an account{" "}
                 <Link
                     href={`/${role}/signup`}
-                    style={{ color: "# 1A2A4B", fontWeight: 700, textDecoration: "none" }}
+                    style={{ color: "#e28576", fontWeight: 700, textDecoration: "none" }}
                 >
                     create account
                 </Link>

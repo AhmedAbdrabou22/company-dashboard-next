@@ -77,7 +77,7 @@
 //     <div className="bg-white rounded-2xl p-5 flex flex-col gap-3 flex-1 shadow-lg">
 //         <p className="text-sm text-[#94a3b8] font-medium">{title}</p>
 //         <div className="flex items-end justify-between gap-3">
-//             <span className="text-3xl font-bold text-[# 1A2A4B] tracking-tight">{value}</span>
+//             <span className="text-3xl font-bold text-[#e28576] tracking-tight">{value}</span>
 //             <Sparkline data={data} color={color} />
 //         </div>
 //         <div className="flex items-center gap-1.5">
@@ -326,7 +326,7 @@ const StatCard = ({
     <div className="bg-white rounded-2xl p-5 flex flex-col gap-3 flex-1 shadow-lg">
         <p className="text-sm text-[#94a3b8] font-medium">{title}</p>
         <div className="flex items-end justify-between gap-3">
-            <span className="text-3xl font-bold text-[# 1A2A4B] tracking-tight">{value}</span>
+            <span className="text-3xl font-bold text-[#000] tracking-tight">{value}</span>
             <Sparkline data={data} color={color} />
         </div>
         <div className="flex items-center gap-1.5">

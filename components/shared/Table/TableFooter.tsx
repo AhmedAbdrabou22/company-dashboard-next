@@ -75,7 +75,7 @@ export const DenseToggle = ({ value, onChange }: { value: boolean; onChange: (va
         onClick={() => onChange(!value)}
         className="flex items-center gap-2 group w-fit"
     >
-        <div className={`relative w-9 h-5 rounded-full transition-colors duration-200 ${value ? "bg-[# 1A2A4B]" : "bg-gray-300"}`}>
+        <div className={`relative w-9 h-5 rounded-full transition-colors duration-200 ${value ? "bg-[#e28576]" : "bg-gray-300"}`}>
             <span className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform duration-200 ${value ? "translate-x-4" : "translate-x-0"}`} />
         </div>
         <span className="text-sm text-gray-500 group-hover:text-gray-700 transition-colors">Dense</span>

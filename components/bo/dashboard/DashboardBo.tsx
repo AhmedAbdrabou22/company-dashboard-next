@@ -76,9 +76,9 @@ const StatCard = ({
   title, value, percent, data, color,
 }: { title: string; value: string; percent: string; data: { v: number }[]; color: string }) => (
   <div className="bg-white rounded-2xl p-5 flex flex-col gap-3 flex-1 shadow-lg">
-    <p className="text-sm text-[#94a3b8] font-medium">{title}</p>
+    <p className="text-sm text-[#000] font-medium">{title}</p>
     <div className="flex items-end justify-between gap-3">
-      <span className="text-3xl font-bold text-[#70423f] tracking-tight">{value}</span>
+      <span className="text-3xl font-bold text-[#000] tracking-tight">{value}</span>
       <Sparkline data={data} color={color} />
     </div>
     <div className="flex items-center gap-1.5">
@@ -184,7 +184,7 @@ export default function BoDashboardPage() {
   );
 
 
-const router = useRouter();
+  const router = useRouter();
 
 
   return (

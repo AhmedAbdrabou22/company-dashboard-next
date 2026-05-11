@@ -29,7 +29,7 @@ export const PrimaryButton = ({
                 flex items-center justify-center gap-2
                 px-4 py-2
                 text-sm font-medium text-white
-                bg-[#70423f]
+                bg-[#e28576]
                 rounded-lg
                 hover:bg-[#e28576]
                 active:bg-[#5a3532]

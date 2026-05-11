@@ -46,10 +46,10 @@ export default function ServicesGrid() {
                 {pageServices.map((name, i) => (
                     <div
                         key={i}
-                        className="bg-[#E9F6FE] rounded-xl overflow-hidden cursor-pointer  shadow-md transition"
+                        className="bg-[#e28576] rounded-xl overflow-hidden cursor-pointer  shadow-md transition"
                     >
                         {/* image */}
-                        <div className="w-full aspect-4/3 bg-[#D4ECFB]" />
+                        <div className="w-full aspect-4/3 bg-[#e28576]" />
 
                         {/* footer */}
                         <div className="flex items-center justify-between px-3 py-2 bg-[white]">
@@ -72,12 +72,12 @@ export default function ServicesGrid() {
                     onClick={() => {
                         setIsModalOpen(true);
                     }}
-                    className="bg-[#E9F6FE] rounded-xl min-h-35 flex flex-col items-center justify-center gap-2 cursor-pointer hover:shadow-md transition"
+                    className="bg-[#e28576] rounded-xl min-h-35 flex flex-col items-center justify-center gap-2 cursor-pointer hover:shadow-md transition"
                 >
-                    <div className="w-12 h-12 rounded-full bg-[# 1A2A4B] text-white flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-full bg-[#70423F] text-white flex items-center justify-center">
                         <FaPlus size={18} />
                     </div>
-                    <span className="text-sm text-[#475467] font-medium">
+                    <span className="text-sm text-[white] font-medium">
                         Add Category
                     </span>
                 </div>
@@ -105,7 +105,7 @@ export default function ServicesGrid() {
                             onClick={() => changePage(p)}
                             className={`w-8 h-8 rounded-lg text-sm flex items-center justify-center transition
         ${currentPage === p
-                                    ? "bg-[# 1A2A4B] text-white"
+                                    ? "bg-[#e28576] text-white"
                                     : "hover:bg-[#E9F6FE] text-[#475467]"
                                 }`}
                         >
@@ -121,7 +121,7 @@ export default function ServicesGrid() {
                             onClick={() => changePage(p)}
                             className={`w-8 h-8 rounded-lg text-sm flex items-center justify-center transition
         ${currentPage === p
-                                    ? "bg-[# 1A2A4B] text-white"
+                                    ? "bg-[#e28576] text-white"
                                     : "hover:bg-[#E9F6FE] text-[#475467]"
                                 }`}
                         >

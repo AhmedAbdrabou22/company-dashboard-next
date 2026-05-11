@@ -78,7 +78,7 @@ export const ModalTemplate = ({
 
                             {Icon && (
                                 <div className="w-10 h-10 rounded-xl bg-white shadow flex items-center justify-center shrink-0">
-                                    <Icon size={20} color="# 1A2A4B" />
+                                    <Icon size={20} color="#e28576" />
                                 </div>
                             )}
 

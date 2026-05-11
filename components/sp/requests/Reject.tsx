@@ -11,7 +11,7 @@ const RejectModalContent = ({ onSubmit, onClose }: { onSubmit: (reason: string) 
                 value={reason}
                 onChange={(e) => setReason(e.target.value)}
                 placeholder="Type your reason here"
-                className="w-full px-4 py-3 rounded-xl border border-[#E4E7EC] text-sm text-[# 1A2A4B] placeholder:text-[#C0C9D8] outline-none focus:border-[# 1A2A4B] focus:ring-2 focus:ring-[# 1A2A4B]/10 transition-all duration-200"
+                className="w-full px-4 py-3 rounded-xl border border-[#E4E7EC] text-sm text-[#e28576] placeholder:text-[#C0C9D8] outline-none focus:border-[#e28576] focus:ring-2 focus:ring-[#e28576]/10 transition-all duration-200"
             />
             <PrimaryButton
                 text="Submit"

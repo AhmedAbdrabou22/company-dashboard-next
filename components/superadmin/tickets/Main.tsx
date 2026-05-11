@@ -24,7 +24,7 @@ const useTicketColumns = (): TicketColumn<Ticket>[] => {
             render: (row) => (
                 <div>
                     <p className="font-medium text-slate-800 leading-tight">{row.buildingOwner.name}</p>
-                    <p className="text-xs text-[#70423f] mt-0.5">{row.buildingOwner.email}</p>
+                    <p className="text-xs text-[#e28576] mt-0.5">{row.buildingOwner.email}</p>
                 </div>
             ),
         },

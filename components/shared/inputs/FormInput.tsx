@@ -103,7 +103,7 @@ const FormInput = ({
                     }}
                     onFocus={(e) => {
                         if (!hasError) {
-                            e.target.style.borderColor = "# 1A2A4B";
+                            e.target.style.borderColor = "#e28576";
                             e.target.style.boxShadow = "0 0 0 3px rgba(26,42,75,0.08)";
                         }
                     }}

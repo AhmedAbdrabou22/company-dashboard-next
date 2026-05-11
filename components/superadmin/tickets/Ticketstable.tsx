@@ -59,7 +59,7 @@
 // }
 
 // const FilterChip = ({ label, onRemove }: { label: string; onRemove: () => void }) => (
-//     <button onClick={onRemove} className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-[#70423f] text-white hover:bg-[#e28576] transition-colors">
+//     <button onClick={onRemove} className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-[#e28576] text-white hover:bg-[#e28576] transition-colors">
 //         {label}
 //         <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
 //             <path d="M9 3L3 9M3 3l6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
@@ -94,7 +94,7 @@
 //     return (
 //         <div className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
 //             <div className="px-5 pt-5 pb-4">
-//                 <h2 className="text-base font-semibold text-[#70423f] mb-4">{title}</h2>
+//                 <h2 className="text-base font-semibold text-[#e28576] mb-4">{title}</h2>
 
 //                 {filters && (
 //                     <div className="flex flex-wrap items-center justify-between gap-3">
@@ -115,7 +115,7 @@
 //                                 <path d="M10.5 10.5l2.5 2.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
 //                             </svg>
 //                             <input type="text" placeholder="Search" value={searchQuery} onChange={(e) => handleSearch(e.target.value)}
-//                                 className="pl-9 pr-4 py-1.5 text-sm rounded-lg border border-slate-200 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#70423f]/20 focus:border-[#70423f] transition-all w-52"
+//                                 className="pl-9 pr-4 py-1.5 text-sm rounded-lg border border-slate-200 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#e28576]/20 focus:border-[#e28576] transition-all w-52"
 //                             />
 //                         </div>
 //                     </div>
@@ -304,7 +304,7 @@ const FilterChip = ({
         className="
       inline-flex items-center gap-1.5
       px-3 py-1.5 rounded-lg text-sm font-medium
-      bg-[#70423f] text-white
+      bg-[#e28576] text-white
       hover:bg-[#e28576]
       transition-colors
     "
@@ -400,7 +400,7 @@ export function TicketsTable<T extends { id: string }>({
                         <h2
                             className="
                 text-base font-semibold
-                text-[#70423f]
+                text-[#e28576]
                 mb-4
               "
                         >
@@ -509,8 +509,8 @@ export function TicketsTable<T extends { id: string }>({
                     placeholder:text-slate-400
                     focus:outline-none
                     focus:ring-2
-                    focus:ring-[#70423f]/20
-                    focus:border-[#70423f]
+                    focus:ring-[#e28576]/20
+                    focus:border-[#e28576]
                     transition-all
                     w-52
                   "

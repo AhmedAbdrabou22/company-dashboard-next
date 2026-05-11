@@ -38,10 +38,10 @@ const DonutChart = () => {
     const cx = 110, cy = 110, strokeW = 18;
 
     const rings = [
-        { r: 88, color: "# 1A2A4B", dash: 75, offset: 0 },
-        { r: 66, color: "#6B7A99", dash: 60, offset: 15 },
+        { r: 88, color: "#e28576", dash: 75, offset: 0 },
+        { r: 66, color: "#70423F", dash: 60, offset: 15 },
         { r: 44, color: "#B0B8CC", dash: 45, offset: 30 },
-        { r: 88, color: "#E53935", dash: 30, offset: -10 },
+        { r: 88, color: "#70423F", dash: 30, offset: -10 },
     ];
 
     return (
@@ -186,15 +186,15 @@ const DashboardSuperAdmin = () => {
                     </div>
                     <div className="flex items-center justify-center gap-6 pt-1">
                         <div className="flex items-center gap-2 text-sm text-[# 1A2A4B] font-medium">
-                            <span className="w-2.5 h-2.5 rounded-full bg-[# 1A2A4B]" />
+                            <span className="w-2.5 h-2.5 rounded-full bg-[#e28576]" />
                             Done
                         </div>
                         <div className="flex items-center gap-2 text-sm text-[# 1A2A4B] font-medium">
-                            <span className="w-2.5 h-2.5 rounded-full bg-[#E53935]" />
+                            <span className="w-2.5 h-2.5 rounded-full bg-[#e28576]" />
                             Cancelled
                         </div>
                         <div className="flex items-center gap-2 text-sm text-[# 1A2A4B] font-medium">
-                            <span className="w-2.5 h-2.5 rounded-full bg-[#E53935]" />
+                            <span className="w-2.5 h-2.5 rounded-full bg-[#e28576]" />
                             In Process
                         </div>
                     </div>

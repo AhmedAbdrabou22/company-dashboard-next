@@ -3,7 +3,7 @@
 
 const OverviewCard = () => {
     const items = [
-        { label: "Profit", value: "$37,406", percent: 60, color: "# 1A2A4B" },
+        { label: "Profit", value: "$37,406", percent: 60, color: "#1A2A4B" },
         { label: "Tickets", value: "$1,519", percent: 23, color: "#8B96AE" },
         { label: "Expenses", value: "$17,214", percent: 12, color: "#E53935" },
     ];
@@ -17,7 +17,7 @@ const OverviewCard = () => {
         }}>
 
             {/* Title */}
-            <p style={{ fontSize: "17px", fontWeight: 700, color: "# 1A2A4B", marginBottom: "24px" }}>
+            <p style={{ fontSize: "17px", fontWeight: 700, color: "#e28576", marginBottom: "24px" }}>
                 Overview
             </p>
 
@@ -28,11 +28,11 @@ const OverviewCard = () => {
 
                         {/* Row: label + value */}
                         <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
-                            <span style={{ fontSize: "14px", fontWeight: 600, color: "# 1A2A4B" }}>
+                            <span style={{ fontSize: "14px", fontWeight: 600, color: "#e28576" }}>
                                 {item.label}
                             </span>
                             <span style={{ fontSize: "13px", color: "#64748b" }}>
-                                <strong style={{ color: "# 1A2A4B", fontWeight: 700 }}>{item.value}</strong>
+                                <strong style={{ color: "#e28576", fontWeight: 700 }}>{item.value}</strong>
                                 {` (${item.percent}%)`}
                             </span>
                         </div>
